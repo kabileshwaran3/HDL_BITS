@@ -1,10 +1,10 @@
 module top_module(
     input clk,
-    input areset,    // Freshly brainwashed Lemmings walk left.
+    input areset,    
     input bump_left,
     input bump_right,
     output walk_left,
-    output walk_right); //  
+    output walk_right);  
 
     parameter LEFT=0, RIGHT=1;
     reg state, next_state;
